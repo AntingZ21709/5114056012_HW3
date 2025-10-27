@@ -79,7 +79,7 @@ streamlit run app/app.py
 
 本專案已部署至 Streamlit Cloud，您可以直接體驗：
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://5114056012hw3.streamlit.app)
 
 > 詳細部署文件請參考 [DEPLOYMENT.md](DEPLOYMENT.md)
 
