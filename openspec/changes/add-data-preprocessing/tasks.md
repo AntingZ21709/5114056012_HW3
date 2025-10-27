@@ -1,8 +1,35 @@
-## 1. Implementation
-- [ ] 1.1 建立 preprocessing 模組檔案（如 src/preprocessing.py）
-- [ ] 1.2 載入 sms_spam_no_header.csv 並檢查資料格式
-- [ ] 1.3 實作文字清理（去除標點、轉小寫、去除多餘空白）
-- [ ] 1.4 斷詞（tokenization）
-- [ ] 1.5 TF-IDF 特徵向量化
-- [ ] 1.6 輸出特徵矩陣（X）與標籤（y）
-- [ ] 1.7 撰寫單元測試驗證前處理正確性
+# Tasks for Data Preprocessing
+
+## 實作進度 (Status: 90% 完成)
+
+### 核心功能
+- [x] 1.1 建立 preprocessing 模組檔案 (src/data/preprocessing.py)
+- [x] 1.2 載入 sms_spam_no_header.csv 並檢查資料格式
+- [x] 1.3 實作文字清理（clean_text 函數）
+  - [x] 轉換為小寫
+  - [x] 移除標點符號
+  - [x] 移除數字
+  - [x] 移除多餘空白
+- [x] 1.4 TF-IDF 特徵向量化
+  - [x] 設定英文停用詞
+  - [x] 設定 n-gram 範圍
+  - [x] 設定特徵數量限制
+- [x] 1.5 資料集分割（訓練/測試）
+- [x] 1.6 資料與向量器保存
+
+### 優化與測試
+- [ ] 2.1 進階文本處理
+  - [ ] 新增詞根化（stemming）
+  - [ ] 新增詞形還原（lemmatization）
+- [ ] 2.2 資料品質改進
+  - [ ] 處理類別不平衡
+  - [ ] 實作資料增強
+- [x] 2.3 單元測試
+  - [x] 測試文本清理功能
+  - [x] 測試向量化功能
+  - [x] 測試資料分割功能
+
+## 後續規劃
+1. 優化特徵工程
+2. 新增資料視覺化功能
+3. 改進資料清理效率
